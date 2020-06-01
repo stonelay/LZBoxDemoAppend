@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		485140012462AC64009F5F7A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 485140002462AC64009F5F7A /* AppDelegate.m */; };
+		485140042462AC64009F5F7A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 485140032462AC64009F5F7A /* SceneDelegate.m */; };
+		485140072462AC64009F5F7A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 485140062462AC64009F5F7A /* ViewController.m */; };
+		4851400A2462AC64009F5F7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 485140082462AC64009F5F7A /* Main.storyboard */; };
+		4851400C2462AC69009F5F7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4851400B2462AC69009F5F7A /* Assets.xcassets */; };
+		4851400F2462AC69009F5F7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4851400D2462AC69009F5F7A /* LaunchScreen.storyboard */; };
+		485140122462AC69009F5F7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 485140112462AC69009F5F7A /* main.m */; };
+		8917C22605DEAB73791E1B6F /* Pods_LZBoxDemoAppend.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E59BCC88D2A79CAF90F32967 /* Pods_LZBoxDemoAppend.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		48513FFC2462AC64009F5F7A /* LZBoxDemoAppend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LZBoxDemoAppend.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48513FFF2462AC64009F5F7A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		485140002462AC64009F5F7A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		485140022462AC64009F5F7A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		485140032462AC64009F5F7A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		485140052462AC64009F5F7A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		485140062462AC64009F5F7A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		485140092462AC64009F5F7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4851400B2462AC69009F5F7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4851400E2462AC69009F5F7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		485140102462AC69009F5F7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		485140112462AC69009F5F7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7670C74951497F42F2D64A98 /* Pods-LZBoxDemoAppend.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZBoxDemoAppend.debug.xcconfig"; path = "Target Support Files/Pods-LZBoxDemoAppend/Pods-LZBoxDemoAppend.debug.xcconfig"; sourceTree = "<group>"; };
+		9299642BF5F7C0ECA1A7E251 /* Pods-LZBoxDemoAppend.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZBoxDemoAppend.release.xcconfig"; path = "Target Support Files/Pods-LZBoxDemoAppend/Pods-LZBoxDemoAppend.release.xcconfig"; sourceTree = "<group>"; };
+		C44856AB7B732530494620A6 /* Pods-LZBoxDemoAppend.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZBoxDemoAppend.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LZBoxDemoAppend/Pods-LZBoxDemoAppend.debug.xcconfig"; sourceTree = "<group>"; };
+		E59BCC88D2A79CAF90F32967 /* Pods_LZBoxDemoAppend.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LZBoxDemoAppend.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4A6C5D66F80F7DEBB5D883E /* Pods-LZBoxDemoAppend.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZBoxDemoAppend.release.xcconfig"; path = "Pods/Target Support Files/Pods-LZBoxDemoAppend/Pods-LZBoxDemoAppend.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48513FF92462AC64009F5F7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8917C22605DEAB73791E1B6F /* Pods_LZBoxDemoAppend.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48513FF32462AC64009F5F7A = {
+			isa = PBXGroup;
+			children = (
+				48513FFE2462AC64009F5F7A /* LZBoxDemoAppend */,
+				48513FFD2462AC64009F5F7A /* Products */,
+				908A96D41FC0A440A757DE9E /* Pods */,
+				C92031AA8F9D0F941244D804 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		48513FFD2462AC64009F5F7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48513FFC2462AC64009F5F7A /* LZBoxDemoAppend.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48513FFE2462AC64009F5F7A /* LZBoxDemoAppend */ = {
+			isa = PBXGroup;
+			children = (
+				48513FFF2462AC64009F5F7A /* AppDelegate.h */,
+				485140002462AC64009F5F7A /* AppDelegate.m */,
+				485140022462AC64009F5F7A /* SceneDelegate.h */,
+				485140032462AC64009F5F7A /* SceneDelegate.m */,
+				485140052462AC64009F5F7A /* ViewController.h */,
+				485140062462AC64009F5F7A /* ViewController.m */,
+				485140082462AC64009F5F7A /* Main.storyboard */,
+				4851400B2462AC69009F5F7A /* Assets.xcassets */,
+				4851400D2462AC69009F5F7A /* LaunchScreen.storyboard */,
+				485140102462AC69009F5F7A /* Info.plist */,
+				485140112462AC69009F5F7A /* main.m */,
+			);
+			path = LZBoxDemoAppend;
+			sourceTree = "<group>";
+		};
+		908A96D41FC0A440A757DE9E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7670C74951497F42F2D64A98 /* Pods-LZBoxDemoAppend.debug.xcconfig */,
+				9299642BF5F7C0ECA1A7E251 /* Pods-LZBoxDemoAppend.release.xcconfig */,
+				C44856AB7B732530494620A6 /* Pods-LZBoxDemoAppend.debug.xcconfig */,
+				F4A6C5D66F80F7DEBB5D883E /* Pods-LZBoxDemoAppend.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C92031AA8F9D0F941244D804 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E59BCC88D2A79CAF90F32967 /* Pods_LZBoxDemoAppend.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48513FFB2462AC64009F5F7A /* LZBoxDemoAppend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 485140152462AC69009F5F7A /* Build configuration list for PBXNativeTarget "LZBoxDemoAppend" */;
+			buildPhases = (
+				F9656100A22C5CE988841975 /* [CP] Check Pods Manifest.lock */,
+				48513FF82462AC64009F5F7A /* Sources */,
+				48513FF92462AC64009F5F7A /* Frameworks */,
+				48513FFA2462AC64009F5F7A /* Resources */,
+				1B54572E73958D4AA283CC61 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LZBoxDemoAppend;
+			productName = LZBoxDemoAppend;
+			productReference = 48513FFC2462AC64009F5F7A /* LZBoxDemoAppend.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48513FF42462AC64009F5F7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = Lay;
+				TargetAttributes = {
+					48513FFB2462AC64009F5F7A = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = 48513FF72462AC64009F5F7A /* Build configuration list for PBXProject "LZBoxDemoAppend" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48513FF32462AC64009F5F7A;
+			productRefGroup = 48513FFD2462AC64009F5F7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48513FFB2462AC64009F5F7A /* LZBoxDemoAppend */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48513FFA2462AC64009F5F7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4851400F2462AC69009F5F7A /* LaunchScreen.storyboard in Resources */,
+				4851400C2462AC69009F5F7A /* Assets.xcassets in Resources */,
+				4851400A2462AC64009F5F7A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B54572E73958D4AA283CC61 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LZBoxDemoAppend/Pods-LZBoxDemoAppend-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LZBoxDemoAppend/Pods-LZBoxDemoAppend-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LZBoxDemoAppend/Pods-LZBoxDemoAppend-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9656100A22C5CE988841975 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LZBoxDemoAppend-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48513FF82462AC64009F5F7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				485140072462AC64009F5F7A /* ViewController.m in Sources */,
+				485140012462AC64009F5F7A /* AppDelegate.m in Sources */,
+				485140122462AC69009F5F7A /* main.m in Sources */,
+				485140042462AC64009F5F7A /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		485140082462AC64009F5F7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				485140092462AC64009F5F7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4851400D2462AC69009F5F7A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4851400E2462AC69009F5F7A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		485140132462AC69009F5F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		485140142462AC69009F5F7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		485140162462AC69009F5F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7670C74951497F42F2D64A98 /* Pods-LZBoxDemoAppend.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U59SCW3798;
+				INFOPLIST_FILE = LZBoxDemoAppend/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lay.LZBoxDemoAppend;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		485140172462AC69009F5F7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9299642BF5F7C0ECA1A7E251 /* Pods-LZBoxDemoAppend.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U59SCW3798;
+				INFOPLIST_FILE = LZBoxDemoAppend/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lay.LZBoxDemoAppend;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48513FF72462AC64009F5F7A /* Build configuration list for PBXProject "LZBoxDemoAppend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				485140132462AC69009F5F7A /* Debug */,
+				485140142462AC69009F5F7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		485140152462AC69009F5F7A /* Build configuration list for PBXNativeTarget "LZBoxDemoAppend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				485140162462AC69009F5F7A /* Debug */,
+				485140172462AC69009F5F7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48513FF42462AC64009F5F7A /* Project object */;
+}

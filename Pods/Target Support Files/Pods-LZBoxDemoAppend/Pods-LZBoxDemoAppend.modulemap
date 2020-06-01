@@ -1,0 +1,6 @@
+framework module Pods_LZBoxDemoAppend {
+  umbrella header "Pods-LZBoxDemoAppend-umbrella.h"
+
+  export *
+  module * { export * }
+}

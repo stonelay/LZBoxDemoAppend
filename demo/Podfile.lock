@@ -1,0 +1,21 @@
+PODS:
+  - BDNewRepo (0.0.6):
+    - YYCache
+  - YYCache (1.0.3)
+
+DEPENDENCIES:
+  - BDNewRepo
+
+SPEC REPOS:
+  http://git.beibei.com.cn/Pods/Specs.git:
+    - YYCache
+  https://github.com/stonelay/allPodSpec.git:
+    - BDNewRepo
+
+SPEC CHECKSUMS:
+  BDNewRepo: adf6728242e5ec1bfb057a7ea6b129d8efd90e71
+  YYCache: 738287193c60501ff14a87d4a84183a43b6b7cbd
+
+PODFILE CHECKSUM: 6daf88cc66acef73ffb22390974d08d1d52d16c4
+
+COCOAPODS: 1.9.1

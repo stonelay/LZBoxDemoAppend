@@ -1,0 +1,1 @@
+pod 'NewAppendRepo', path: '../NewAppendRepo', :inhibit_warnings => false

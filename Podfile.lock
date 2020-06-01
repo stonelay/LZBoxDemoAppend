@@ -1,0 +1,20 @@
+PODS:
+  - BDNewRepo (0.0.9)
+  - NewAppendRepo (0.0.5)
+
+DEPENDENCIES:
+  - BDNewRepo
+  - NewAppendRepo
+
+SPEC REPOS:
+  https://github.com/stonelay/allPodSpec.git:
+    - BDNewRepo
+    - NewAppendRepo
+
+SPEC CHECKSUMS:
+  BDNewRepo: 139990bced9c1fd300b3569aa7f8b185e5b8a939
+  NewAppendRepo: 66ec30cf171d1e6ee5b3134fa9e26209ff0840ca
+
+PODFILE CHECKSUM: 81758bc42335a4ac0190237dab85362864a4427f
+
+COCOAPODS: 1.9.1
