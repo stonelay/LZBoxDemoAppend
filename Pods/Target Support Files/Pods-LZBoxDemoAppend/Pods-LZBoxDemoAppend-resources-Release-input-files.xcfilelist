@@ -1,2 +1,4 @@
 ${PODS_ROOT}/Target Support Files/Pods-LZBoxDemoAppend/Pods-LZBoxDemoAppend-resources.sh
+${PODS_CONFIGURATION_BUILD_DIR}/ALLFoundation/ALLFoundation.bundle
 ${PODS_ROOT}/BDNewRepo/ios/BDNewRepo.framework/Versions/A/Resources/BDNewRepo.bundle
+${PODS_ROOT}/YAML/ios/YAML.framework/Versions/A/Resources/replace.file

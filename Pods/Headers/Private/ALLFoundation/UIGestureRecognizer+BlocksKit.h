@@ -1,0 +1,1 @@
+../../../../../ALLFoundation/ALLFoundation/Classes/Third/BlocksKit/UIKit/UIGestureRecognizer+BlocksKit.h

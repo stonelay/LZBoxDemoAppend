@@ -1,0 +1,1 @@
+../../../../../ALLFoundation/ALLFoundation/Classes/HBLanguageExtensions/Classes/NSString+HBEncrypt.h

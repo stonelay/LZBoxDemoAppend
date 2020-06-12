@@ -6,9 +6,9 @@
 //  Copyright © 2020 Lay. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <HBPlatform.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : HBPlatformAppDelegate
 
 
 @end

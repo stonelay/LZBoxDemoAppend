@@ -1,0 +1,39 @@
+{
+  "name": "BDNewRepo",
+  "version": "0.0.8",
+  "summary": "NSAttributeString Util",
+  "description": "easy way to create NSAttributeString",
+  "homepage": "https://github.com/stoneLay/BDNewRepo",
+  "license": {
+    "type": "proprietary",
+    "text": "aa Inc. Copyright"
+  },
+  "authors": {
+    "Lay": "lay.zhang@beibei.com"
+  },
+  "source": {
+    "git": "https://github.com/stoneLay/BDNewRepo.git",
+    "tag": "0.0.8"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BDNewRepo/Classes/**/*.{h,m}",
+  "public_header_files": "BDNewRepo/Classes/**/*.h",
+  "prefix_header_contents": "#import \"BDNewRepoGlobal.h\"",
+  "resource_bundles": {
+    "BDNewRepo": [
+      "BDNewRepo/Assets/*.{png,xib,xcassets,json}",
+      "BDNewRepo/Config/*"
+    ]
+  },
+  "dependencies": {
+    "YYCache": [
+
+    ],
+    "AFNetworking": [
+
+    ]
+  },
+  "swift_version": "5.1.2"
+}

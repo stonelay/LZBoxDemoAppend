@@ -97,10 +97,14 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/ALLFoundation/ALLFoundation.bundle"
   install_resource "${PODS_ROOT}/BDNewRepo/ios/BDNewRepo.framework/Versions/A/Resources/BDNewRepo.bundle"
+  install_resource "${PODS_ROOT}/YAML/ios/YAML.framework/Versions/A/Resources/replace.file"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/ALLFoundation/ALLFoundation.bundle"
   install_resource "${PODS_ROOT}/BDNewRepo/ios/BDNewRepo.framework/Versions/A/Resources/BDNewRepo.bundle"
+  install_resource "${PODS_ROOT}/YAML/ios/YAML.framework/Versions/A/Resources/replace.file"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

@@ -3,26 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		485140012462AC64009F5F7A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 485140002462AC64009F5F7A /* AppDelegate.m */; };
-		485140042462AC64009F5F7A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 485140032462AC64009F5F7A /* SceneDelegate.m */; };
 		485140072462AC64009F5F7A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 485140062462AC64009F5F7A /* ViewController.m */; };
 		4851400A2462AC64009F5F7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 485140082462AC64009F5F7A /* Main.storyboard */; };
 		4851400C2462AC69009F5F7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4851400B2462AC69009F5F7A /* Assets.xcassets */; };
 		4851400F2462AC69009F5F7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4851400D2462AC69009F5F7A /* LaunchScreen.storyboard */; };
 		485140122462AC69009F5F7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 485140112462AC69009F5F7A /* main.m */; };
-		8917C22605DEAB73791E1B6F /* Pods_LZBoxDemoAppend.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E59BCC88D2A79CAF90F32967 /* Pods_LZBoxDemoAppend.framework */; };
+		48BBD28724939EE200E64C77 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BBD28624939EE200E64C77 /* DemoViewController.m */; };
+		B6BAE25271238757A1C5C9B3 /* libPods-LZBoxDemoAppend.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B95C77414BCDD73BD4674B3A /* libPods-LZBoxDemoAppend.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		48513FFC2462AC64009F5F7A /* LZBoxDemoAppend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LZBoxDemoAppend.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48513FFF2462AC64009F5F7A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		485140002462AC64009F5F7A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		485140022462AC64009F5F7A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		485140032462AC64009F5F7A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		485140052462AC64009F5F7A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		485140062462AC64009F5F7A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		485140092462AC64009F5F7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -30,10 +28,12 @@
 		4851400E2462AC69009F5F7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		485140102462AC69009F5F7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		485140112462AC69009F5F7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		48BBD28524939EE200E64C77 /* DemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		48BBD28624939EE200E64C77 /* DemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
 		7670C74951497F42F2D64A98 /* Pods-LZBoxDemoAppend.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZBoxDemoAppend.debug.xcconfig"; path = "Target Support Files/Pods-LZBoxDemoAppend/Pods-LZBoxDemoAppend.debug.xcconfig"; sourceTree = "<group>"; };
 		9299642BF5F7C0ECA1A7E251 /* Pods-LZBoxDemoAppend.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZBoxDemoAppend.release.xcconfig"; path = "Target Support Files/Pods-LZBoxDemoAppend/Pods-LZBoxDemoAppend.release.xcconfig"; sourceTree = "<group>"; };
+		B95C77414BCDD73BD4674B3A /* libPods-LZBoxDemoAppend.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LZBoxDemoAppend.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C44856AB7B732530494620A6 /* Pods-LZBoxDemoAppend.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZBoxDemoAppend.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LZBoxDemoAppend/Pods-LZBoxDemoAppend.debug.xcconfig"; sourceTree = "<group>"; };
-		E59BCC88D2A79CAF90F32967 /* Pods_LZBoxDemoAppend.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LZBoxDemoAppend.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4A6C5D66F80F7DEBB5D883E /* Pods-LZBoxDemoAppend.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LZBoxDemoAppend.release.xcconfig"; path = "Pods/Target Support Files/Pods-LZBoxDemoAppend/Pods-LZBoxDemoAppend.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -42,7 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8917C22605DEAB73791E1B6F /* Pods_LZBoxDemoAppend.framework in Frameworks */,
+				B6BAE25271238757A1C5C9B3 /* libPods-LZBoxDemoAppend.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,8 +72,6 @@
 			children = (
 				48513FFF2462AC64009F5F7A /* AppDelegate.h */,
 				485140002462AC64009F5F7A /* AppDelegate.m */,
-				485140022462AC64009F5F7A /* SceneDelegate.h */,
-				485140032462AC64009F5F7A /* SceneDelegate.m */,
 				485140052462AC64009F5F7A /* ViewController.h */,
 				485140062462AC64009F5F7A /* ViewController.m */,
 				485140082462AC64009F5F7A /* Main.storyboard */,
@@ -81,6 +79,8 @@
 				4851400D2462AC69009F5F7A /* LaunchScreen.storyboard */,
 				485140102462AC69009F5F7A /* Info.plist */,
 				485140112462AC69009F5F7A /* main.m */,
+				48BBD28524939EE200E64C77 /* DemoViewController.h */,
+				48BBD28624939EE200E64C77 /* DemoViewController.m */,
 			);
 			path = LZBoxDemoAppend;
 			sourceTree = "<group>";
@@ -99,7 +99,7 @@
 		C92031AA8F9D0F941244D804 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E59BCC88D2A79CAF90F32967 /* Pods_LZBoxDemoAppend.framework */,
+				B95C77414BCDD73BD4674B3A /* libPods-LZBoxDemoAppend.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,7 +115,7 @@
 				48513FF82462AC64009F5F7A /* Sources */,
 				48513FF92462AC64009F5F7A /* Frameworks */,
 				48513FFA2462AC64009F5F7A /* Resources */,
-				1B54572E73958D4AA283CC61 /* [CP] Copy Pods Resources */,
+				1CDC35C215AA6DFDEBF99C46 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -172,7 +172,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1B54572E73958D4AA283CC61 /* [CP] Copy Pods Resources */ = {
+		1CDC35C215AA6DFDEBF99C46 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -221,7 +221,7 @@
 				485140072462AC64009F5F7A /* ViewController.m in Sources */,
 				485140012462AC64009F5F7A /* AppDelegate.m in Sources */,
 				485140122462AC69009F5F7A /* main.m in Sources */,
-				485140042462AC64009F5F7A /* SceneDelegate.m in Sources */,
+				48BBD28724939EE200E64C77 /* DemoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,8 +364,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = U59SCW3798;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = LZBoxDemoAppend/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -386,8 +386,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = U59SCW3798;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = LZBoxDemoAppend/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (

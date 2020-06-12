@@ -7,53 +7,116 @@
 //
 
 #import "AppDelegate.h"
-//#import "NewRepoModel.h"
-
-#import <NewAppendRepo/NewAppendModel.h>
-//#import "NewAppendModel.h"
-
-
-//#import "NewAppendModel.h"
-
-//#import <BDNewRepo/NewRepoModel.h>
-//#import "NewRepoModel+Ext.h"
-//#import "NewRepoModel.h"
-//#import "NewRModel.h"
-
-//#import <BDNewRepo/NewRModel.h>
-
-
-@interface AppDelegate ()
-
-@end
+#import <ALLFoundation/BDLifecycleLoader.h>
+#import <HBPageRouter.h>
+#import <HBNavigationController.h>
+#import <HBNavigator.h>
 
 @implementation AppDelegate
 
+#ifdef DEBUG
++ (void)load
+{
+//    [NSUserDefaults standardUserDefaults][@"DEBUG"] = @YES; // 供业务库调试使用
+}
+#endif
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
-//    NSLog(@"%@", [NewRepoModel new].modelName) ;
-//    NSLog(@"%@", [NewAppendModel printModeName])
-    [NewAppendModel printModeName];
+- (BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    [BDLifecycleLoader loadLifecycles];
+//
+//    // 注册 URL Protocol
+//    [HBNetworkEngine registerURLProtocolClasses:@[
+//                                                  [HBHybridURLProtocol class],
+//                                                  [HBWebViewImageCacheProtocol class],
+//                                                  [HBHttpDnsURLProtocol class],
+//                                                  [HBSVGURLProtocol class],
+//                                                  ]];
+//
+//    [BDNetworkConfig apply];
+//
+    if ([self.class.superclass instancesRespondToSelector:_cmd]) {
+        [super application:application willFinishLaunchingWithOptions:launchOptions];
+    }
+
     return YES;
 }
 
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    [super application:application didFinishLaunchingWithOptions:launchOptions];
+//
+//    // only create main window when launched from foreground
+    if (application.applicationState != UIApplicationStateBackground) {
+        [self createMainWindowForApplication:application];
+    }
+//
+//    [self applyLocalFix];
 
-#pragma mark - UISceneSession lifecycle
-
-
-- (UISceneConfiguration *)application:(UIApplication *)application configurationForConnectingSceneSession:(UISceneSession *)connectingSceneSession options:(UISceneConnectionOptions *)options {
-    // Called when a new scene session is being created.
-    // Use this method to select a configuration to create the new scene with.
-    return [[UISceneConfiguration alloc] initWithName:@"Default Configuration" sessionRole:connectingSceneSession.role];
+    return YES;
 }
 
-
-- (void)application:(UIApplication *)application didDiscardSceneSessions:(NSSet<UISceneSession *> *)sceneSessions {
-    // Called when the user discards a scene session.
-    // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
-    // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
+- (void)applicationWillEnterForeground:(UIApplication *)application
+{
+//    [super applicationWillEnterForeground:application];
+//
+//    // if the app is launched from background (by system), then create main window for the first time
+//    if (self.window == nil) {
+//        [self createMainWindowForApplication:application];
+//    }
 }
 
+- (void)createMainWindowForApplication:(UIApplication *)application
+{
+    UIViewController *mainViewController = [[HBPageRouter router] matchControllerUrl:@"bb/demo"];
+
+//    [self observeMainScreenDidAppear:mainViewController];
+    if (!self.window) {
+        self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    }
+    HBNavigationController *nav = [[HBNavigationController alloc] initWithRootViewController:mainViewController];
+    [[HBNavigator instance] setRootNavigationController:nav];
+    self.window.rootViewController = nav;
+//    if (fromUserPrivacy) {
+//        [[BDSplashAdsWindow sharedInstance] tryShowSplashAds];
+//    } else {
+////tryShowDefaultSplashView方法如果是从隐私页面点击确定后执行的话会有问题，BDSplashAdsWindow监听了启动的UIApplicationDidBecomeActiveNotification通知来执行tryLaunchSplashAds方法，如果是从隐私过来的，在点击确认之前就已经完成启动的UIApplicationDidBecomeActiveNotification通知，所以BDSplashAdsWindow会一直存在，造成卡死的假象，只有从后台切回前台才会进到首页
+//        [[BDSplashAdsWindow sharedInstance] tryShowDefaultSplashView];
+//    }
+
+    [self.window makeKeyAndVisible];
+}
+
+- (void)registerRemoteNotification
+{
+//    if ([[Reachability reachabilityForInternetConnection] isReachable]) {
+//        UIUserNotificationType types = UIUserNotificationTypeBadge | UIUserNotificationTypeSound | UIUserNotificationTypeAlert;
+//        UIUserNotificationSettings *notificationSettings = [UIUserNotificationSettings settingsForTypes:types categories:nil];
+//        [[UIApplication sharedApplication] registerUserNotificationSettings:notificationSettings];
+//    }
+}
+
+- (void)applyLocalFix
+{
+//    if ([HBIOC_Environment isRelease]) {
+//        return;
+//    }
+//    NSString *sourcePath = [[NSBundle mainBundle] pathForResource:@"patch" ofType:@"rb"];
+//    NSString *script = [NSString stringWithContentsOfFile:sourcePath encoding:NSUTF8StringEncoding error:nil];
+//    [[HBHotFixService sharedService] applyPatchScript:script];
+}
+
+#pragma mark - mainScreen
+
+- (void)observeMainScreenDidAppear:(UIViewController *)viewController
+{
+//    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(applicationHomeViewControllerDidAppear:) name:kHBBaseViewControllerDidAppearNotification object:viewController];
+}
+
+- (void)applicationHomeViewControllerDidAppear:(NSNotification *)notification
+{
+//    [self triggleApplication:[UIApplication sharedApplication] mainScreenDidFirstAppearLifycycle:notification.object];
+//    [[NSNotificationCenter defaultCenter] removeObserver:self name:kHBBaseViewControllerDidAppearNotification object:notification.object];
+}
 
 @end

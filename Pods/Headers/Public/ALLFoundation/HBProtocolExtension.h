@@ -1,0 +1,1 @@
+../../../../../ALLFoundation/ALLFoundation/Classes/HBSingleton/Classes/Core/HBProtocolExtension.h

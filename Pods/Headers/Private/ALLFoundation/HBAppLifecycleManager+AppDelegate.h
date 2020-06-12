@@ -1,0 +1,1 @@
+../../../../../ALLFoundation/ALLFoundation/Classes/HBPlatform/Classes/Private/HBAppLifecycleManager+AppDelegate.h

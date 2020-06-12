@@ -1,0 +1,30 @@
+{
+  "name": "NewAppendRepo",
+  "version": "0.0.5",
+  "summary": "NSAttributeString Util",
+  "description": "easy way to create NSAttributeString",
+  "homepage": "https://github.com/stoneLay/NewAppendRepo",
+  "license": {
+    "type": "proprietary",
+    "text": "text a"
+  },
+  "authors": {
+    "Lay": "lay.zhang@beibei.com"
+  },
+  "source": {
+    "git": "https://github.com/stoneLay/NewAppendRepo.git",
+    "tag": "0.0.5"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Pod/Classes/**/*.{h,m}",
+  "public_header_files": "Pod/Classes/**/*.h",
+  "prefix_header_contents": "#import \"NewAppendRepoGlobal.h\"",
+  "dependencies": {
+    "BDNewRepo": [
+
+    ]
+  },
+  "swift_version": "5.1.2"
+}

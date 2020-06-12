@@ -1,0 +1,2 @@
+pod 'BDNewRepo', path: '../BDNewRepo', :inhibit_warnings => false
+pod 'NewAppendRepo', path: '../NewAppendRepo', :inhibit_warnings => false

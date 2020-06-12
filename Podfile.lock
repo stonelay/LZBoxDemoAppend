@@ -1,20 +1,32 @@
 PODS:
+  - ALLFoundation (0.1.0)
   - BDNewRepo (0.0.9)
-  - NewAppendRepo (0.0.5)
+  - NewAppendRepo (0.0.5):
+    - BDNewRepo
+  - YAML (0.0.2)
 
 DEPENDENCIES:
-  - BDNewRepo
-  - NewAppendRepo
+  - ALLFoundation (from `../ALLFoundation`)
+  - NewAppendRepo (from `../NewAppendRepo`)
+  - YAML (= 0.0.2)
 
 SPEC REPOS:
   https://github.com/stonelay/allPodSpec.git:
     - BDNewRepo
-    - NewAppendRepo
+    - YAML
+
+EXTERNAL SOURCES:
+  ALLFoundation:
+    :path: "../ALLFoundation"
+  NewAppendRepo:
+    :path: "../NewAppendRepo"
 
 SPEC CHECKSUMS:
+  ALLFoundation: d2bec17209a07edd380dbc36c1c78202568900d8
   BDNewRepo: 139990bced9c1fd300b3569aa7f8b185e5b8a939
-  NewAppendRepo: 66ec30cf171d1e6ee5b3134fa9e26209ff0840ca
+  NewAppendRepo: 095f40a214dbbbc9bd01bc9fb89695ea2953d2d9
+  YAML: a75cd96f90a516ae1d75db807bcdbec40f48cb92
 
-PODFILE CHECKSUM: 81758bc42335a4ac0190237dab85362864a4427f
+PODFILE CHECKSUM: 895c9c656bf9c710a305948b7539e6d8f7ae5501
 
 COCOAPODS: 1.9.1

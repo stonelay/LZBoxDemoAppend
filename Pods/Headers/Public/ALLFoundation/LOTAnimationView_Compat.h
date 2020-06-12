@@ -1,0 +1,1 @@
+../../../../../ALLFoundation/ALLFoundation/Classes/Third/Lottie/Classes/PublicHeaders/LOTAnimationView_Compat.h

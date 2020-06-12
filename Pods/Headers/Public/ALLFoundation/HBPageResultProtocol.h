@@ -1,0 +1,1 @@
+../../../../../ALLFoundation/ALLFoundation/Classes/HBNavigator/Classes/PageResult/HBPageResultProtocol.h

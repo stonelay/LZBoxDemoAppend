@@ -1,0 +1,1 @@
+../../../../../ALLFoundation/ALLFoundation/Classes/HBURLHandler/Classes/UIApplication+HBLogOpenURL.h

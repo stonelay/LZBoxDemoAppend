@@ -1,0 +1,1 @@
+../../../../../ALLFoundation/ALLFoundation/Classes/Third/YYModel/YYClassInfo.h

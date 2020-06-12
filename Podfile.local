@@ -1,1 +1,2 @@
 pod 'NewAppendRepo', path: '../NewAppendRepo', :inhibit_warnings => false
+pod 'ALLFoundation', path: '../ALLFoundation', :inhibit_warnings => false

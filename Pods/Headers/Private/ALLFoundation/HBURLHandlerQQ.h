@@ -1,0 +1,1 @@
+../../../../../ALLFoundation/ALLFoundation/Classes/HBURLHandler/Classes/HBURLHandlerQQ.h

@@ -1,0 +1,33 @@
+{
+  "name": "ALLFoundation",
+  "version": "0.1.0",
+  "summary": "description of ALLFoundation.",
+  "description": "A short description of ALLFoundation.",
+  "homepage": "https://github.com/stoneLay/ALLFoundation",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "stoneLay": "lay.zhang@beibei.com"
+  },
+  "source": {
+    "git": "https://github.com/stoneLay/ALLFoundation.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ALLFoundation/Classes/**/*.{h,m}",
+  "public_header_files": "ALLFoundation/Classes/**/*.h",
+  "pod_target_xcconfig": {
+    "OTHER_LDFLAGS": "$(inherited) -Wl,-U -Wl,__mh_execute_header"
+  },
+  "resource_bundles": {
+    "ALLFoundation": [
+      "ALLFoundation/Assets/**/*.{png,xib,xcassets,json}",
+      "ALLFoundation/Config/*"
+    ]
+  },
+  "swift_version": "5.1.2"
+}

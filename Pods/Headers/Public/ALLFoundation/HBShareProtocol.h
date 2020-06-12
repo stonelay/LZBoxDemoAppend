@@ -1,0 +1,1 @@
+../../../../../ALLFoundation/ALLFoundation/Classes/HBIoCProtocols/Classes/HBShareProtocol.h

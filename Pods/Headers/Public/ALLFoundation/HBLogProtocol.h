@@ -1,0 +1,1 @@
+../../../../../ALLFoundation/ALLFoundation/Classes/HBLogProtocol/Classes/HBLogProtocol.h
