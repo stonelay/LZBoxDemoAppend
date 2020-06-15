@@ -39,11 +39,11 @@ module M_JF
         Dir.chdir @app
         if File.exist? @version_document
           lines = File.readlines(@version_document).map do |line|
-            if line.match("/^#/")
+            if line.match(/^#/)
               line = line[1, line.length].strip
             end
 
-            line
+            "#{line}\n"
           end
           File.open @version_document, "w" do |file|
             lines.each do |line|

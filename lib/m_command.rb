@@ -192,6 +192,7 @@ module M_JF
       end.reduce({}, :merge)
 
       new_pod_spec.source = { http: pod_url }
+      new_pod_spec.license = { type: 'proprietary', text: 'text value' }
 
       File.open "#{repo}.podspec.json", "w" do |f|
         f.write new_pod_spec.to_pretty_json
@@ -231,13 +232,14 @@ module M_JF
       chdir_source_path repo, "source path can not find, when excute pod_copy_license pod"
       chdir_zip_path repo
 
-      license_file = File.join @source_root, 'LICENSE'
+      license_file = File.join @source_root, "#{repo}/LICENSE"
       export_dir = Dir.pwd
       if File.exist? license_file
         FileUtils.install license_file, export_dir
       else
         FileUtils.touch "#{export_dir}/LICENSE"
       end
+      chdir_source_path @source_root, "chdir root path"
     end
 
     def package
