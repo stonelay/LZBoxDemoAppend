@@ -5,6 +5,7 @@ require "./LZBoxDemoAppend/lib/m_helper"
 require "./LZBoxDemoAppend/lib/m_uploader"
 require "./LZBoxDemoAppend/lib/m_build"
 require "./LZBoxDemoAppend/lib/m_version"
+require "./LZBoxDemoAppend/lib/m_spec"
 require "cocoapods"
 require "securerandom"
 
@@ -112,20 +113,6 @@ module M_JF
         exit 1
       end
 
-      chdir_zip_path repo
-
-      resources_path = "./ios/#{repo}.framework/Versions/A/Resources"
-
-      if resources_path
-        unless Dir.exist? resources_path
-          Dir.mkdir resources_path
-          Dir.chdir resources_path
-          File.open "replace.file", "w" do |f|
-            f.write "replace me"
-          end
-        end
-      end
-
       chdir_source_path @source_root, "chdir root path"
     end
 
@@ -187,12 +174,8 @@ module M_JF
 
       new_pod_spec = Pod::Specification.from_file file_name
 
-      new_pod_spec.attributes_hash["dependencies"] = dependencies.map do |dep|
-        { dep.name => [dep.requirement.to_s].reject { |x| x == ">= 0" } }
-      end.reduce({}, :merge)
-
-      new_pod_spec.source = { http: pod_url }
-      new_pod_spec.license = { type: 'proprietary', text: 'text value' }
+      m_spec = M_Spec.new(new_pod_spec)
+      m_spec.install_pod_spec pod_url
 
       File.open "#{repo}.podspec.json", "w" do |f|
         f.write new_pod_spec.to_pretty_json
@@ -227,7 +210,6 @@ module M_JF
     end
 
     def pod_copy_license
-
       repo = get_repo_name
       chdir_source_path repo, "source path can not find, when excute pod_copy_license pod"
       chdir_zip_path repo

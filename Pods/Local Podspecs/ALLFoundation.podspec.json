@@ -29,5 +29,10 @@
       "ALLFoundation/Config/*"
     ]
   },
+  "dependencies": {
+    "MJRefresh": [
+
+    ]
+  },
   "swift_version": "5.1.2"
 }

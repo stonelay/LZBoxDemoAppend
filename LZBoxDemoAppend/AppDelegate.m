@@ -12,6 +12,8 @@
 #import <HBNavigationController.h>
 #import <HBNavigator.h>
 
+#import <MJRefresh/UIView+MJExtension.h>
+
 @implementation AppDelegate
 
 #ifdef DEBUG

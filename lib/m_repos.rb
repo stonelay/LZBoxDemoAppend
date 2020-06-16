@@ -43,11 +43,11 @@ module M_JF
               line = line[1, line.length].strip
             end
 
-            "#{line}\n"
+            line
           end
           File.open @version_document, "w" do |file|
             lines.each do |line|
-              file.write line
+                file.write line
             end
           end
         end

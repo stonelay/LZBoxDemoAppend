@@ -53,6 +53,26 @@ THE SOFTWARE.
 		</dict>
 		<dict>
 			<key>FooterText</key>
+			<string>text value</string>
+			<key>License</key>
+			<string>proprietary</string>
+			<key>Title</key>
+			<string>BlocksKit</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string>text value</string>
+			<key>License</key>
+			<string>proprietary</string>
+			<key>Title</key>
+			<string>MJRefresh</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
 			<string>text a</string>
 			<key>License</key>
 			<string>proprietary</string>

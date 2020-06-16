@@ -1,18 +1,26 @@
 PODS:
-  - ALLFoundation (0.1.0)
+  - ALLFoundation (0.1.0):
+    - MJRefresh
   - BDNewRepo (0.0.9)
+  - BlocksKit (0.1.0)
+  - MJRefresh (0.1.1)
   - NewAppendRepo (0.0.5):
     - BDNewRepo
   - YAML (0.0.2)
 
 DEPENDENCIES:
   - ALLFoundation (from `../ALLFoundation`)
+  - BDNewRepo (= 0.0.9)
+  - BlocksKit (= 0.1.0)
+  - MJRefresh (= 0.1.1)
   - NewAppendRepo (from `../NewAppendRepo`)
   - YAML (= 0.0.2)
 
 SPEC REPOS:
   https://github.com/stonelay/allPodSpec.git:
     - BDNewRepo
+    - BlocksKit
+    - MJRefresh
     - YAML
 
 EXTERNAL SOURCES:
@@ -22,8 +30,10 @@ EXTERNAL SOURCES:
     :path: "../NewAppendRepo"
 
 SPEC CHECKSUMS:
-  ALLFoundation: d2bec17209a07edd380dbc36c1c78202568900d8
+  ALLFoundation: 1cce217833c9257d7db32a0f6e2a89d0285efe1f
   BDNewRepo: 139990bced9c1fd300b3569aa7f8b185e5b8a939
+  BlocksKit: 0e8c153d11a61d68f932087d26906875cb2c9859
+  MJRefresh: 470d4307f202c1febbd105e8f7f66ac4a3208c74
   NewAppendRepo: 095f40a214dbbbc9bd01bc9fb89695ea2953d2d9
   YAML: a75cd96f90a516ae1d75db807bcdbec40f48cb92
 
